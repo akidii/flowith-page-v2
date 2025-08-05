@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #0A192F;
+    --secondary-color: #1E2A3A;
+    --accent-color: #64FFDA;
+    --slate-light: #ccd6f6;
+    --slate-dark: #8892b0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.font-header {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font-body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bg-primary { background-color: var(--primary-color); }
+.bg-secondary { background-color: var(--secondary-color); }
+.text-accent { color: var(--accent-color); }
+.border-accent { border-color: var(--accent-color); }
+.text-slate-light { color: var(--slate-light); }
+.text-slate-dark { color: var(--slate-dark); }
+
+
+.nav-link {
+    @apply text-slate-300 hover:text-accent transition-colors duration-300 text-sm;
+}
+.nav-link.active {
+    @apply text-accent;
+}
+
+.btn {
+    @apply font-header text-accent border border-accent rounded px-6 py-3 hover:bg-accent/10 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-50;
+}
+
+#terminal-input {
+    background-color: transparent;
+    border: none;
+    caret-color: var(--accent-color);
+    outline: none;
+    width: 100%;
+    color: var(--slate-light);
+}
+
+.terminal-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1.2em;
+    background-color: var(--accent-color);
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+    from, to { background-color: transparent; }
+    50% { background-color: var(--accent-color); }
+}
+
+.glass-card {
+    background-color: rgba(30, 42, 58, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    border-radius: 8px;
+}
+
+.page-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: var(--accent-color);
+    margin-top: 1rem;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+}
+
+.case-study-section h3 {
+    @apply text-2xl font-header text-accent mb-4;
+}
+
+.case-study-section p, .case-study-section li {
+    @apply text-slate-dark;
+}
+
+#tooltip {
+    position: fixed;
+    display: none;
+    background: var(--secondary-color);
+    color: var(--slate-light);
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 100;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.architecture-image {
+    cursor: pointer;
+}

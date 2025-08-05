@@ -1,0 +1,269 @@
+{
+  "global": {
+    "siteTitle": "AI Product Manager | Embodied Intelligence",
+    "navigation": {
+      "brand": "AI PM",
+      "links": {
+        "portfolio": "01. Portfolio",
+        "about": "02. About",
+        "insights": "03. Insights",
+        "contact": "04. Contact"
+      }
+    },
+    "footer": "Designed & Built by Neo. Inspired by Cyborg Functionalism."
+  },
+  "home": {
+    "hero": {
+      "title": "Driving Embodied AI Innovation.",
+      "subtitle": "An execution-driven AI Product Manager turning complex ideas into impactful solutions.",
+      "prompt": "> Ask me a question to build my profile. Try \"execution\", \"design\", or \"technical\".",
+      "initialSummary": ""
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "sectionNumber": "02.",
+    "content": {
+      "paragraph1": "As a Communications Engineering graduate passionate about proactive AI innovation, I am an <strong>execution-driven AI Product Manager</strong> dedicated to transforming complex ideas into tangible, impactful solutions within the <strong>Embodied Intelligence</strong> domain.",
+      "paragraph2": "My journey began in the world of bits and signals, providing me with a deep technical foundation in system integration and data transmission. This background is not a traditional path for a PM, but for Embodied Intelligence—where hardware, software, and AI converge—it's a strategic advantage. It allows me to bridge the gap between low-level infrastructure challenges and high-level product features.",
+      "paragraph3": "I thrive on <strong>learning and building</strong>. Whether it's developing an AI Interview Assistant from scratch or diving into the market for new AI plugins, my focus is always on execution and delivering value. I believe the future of AI is not just in the cloud, but in the physical world. My ambition is to be at the forefront of this revolution, building the products that will define the next generation of human-computer interaction."
+    },
+    "competencies": {
+      "title": "Core Competencies",
+      "productManagement": {
+        "title": "Product Management",
+        "skills": ["Roadmapping & Strategy", "User Research & Analysis", "Agile Methodologies", "Competitive Analysis"]
+      },
+      "technical": {
+        "title": "Technical Skills",
+        "skills": ["Python & SQL", "API Design & Integration", "ML Concepts", "System Architecture"]
+      },
+      "tools": {
+        "title": "Tools",
+        "skills": ["Figma", "Jira & Confluence", "Notion", "GitHub"]
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Product Portfolio",
+    "sectionNumber": "01.",
+    "description": "Here are some of the projects I've worked on, showcasing my ability to move from idea to execution. Each project represents a step in my journey of learning, building, and delivering value in the AI space.",
+    "tableHeaders": {
+      "project": "Project Name",
+      "type": "Type",
+      "focus": "Focus",
+      "role": "My Role",
+      "link": "Link"
+    },
+    "projects": {
+      "interviewAssistant": {
+        "name": "AI Interview Assistant",
+        "type": "Developed Product",
+        "focus": "End-to-end Execution",
+        "role": "Product Manager / Dev",
+        "link": "View Case",
+        "url": "case-study-interview-assistant",
+        "architecture_image": "https://r2.flowith.net/files/o/1754326800641-ai_interview_assistant_system_architecture_index_0@1024x1024.png"
+      },
+      "productAnalysis": {
+        "name": "AI Product Analysis",
+        "type": "Product Teardown",
+        "focus": "UX & Heuristic Evaluation",
+        "role": "Product Analyst",
+        "link": "View Case",
+        "url": "case-study-product-analysis"
+      },
+      "marketResearch": {
+        "name": "AI Plugin Market Research",
+        "type": "Market Research",
+        "focus": "Strategy & Positioning",
+        "role": "Product Strategist",
+        "link": "View Case",
+        "url": "case-study-market-research"
+      },
+      "vibeCoding": {
+        "name": "vibe coding Plugin",
+        "type": "In-progress R&D",
+        "focus": "Agentic AI & Prototyping",
+        "role": "Developer / PM",
+        "link": "View Case",
+        "url": "case-study-vibe-coding",
+        "architecture_image": "https://r2.flowith.net/files/o/1754326773637-vibe_coding_system_architecture_index_1@1024x1024.png"
+      }
+    }
+  },
+  "insights": {
+    "title": "Insights & Commentary",
+    "sectionNumber": "03.",
+    "description": "I believe in continuous learning and sharing knowledge. This space is for my thoughts on emerging trends in Embodied Intelligence, product management methodologies, and teardowns of interesting AI products.",
+    "articles": [
+      {
+        "title": "具身智能的“神经系统”：为何通信工程是我的独特优势",
+        "summary": "当下，行业对具身智能的讨论大多聚焦于其“大脑”（大模型算法）和“肌肉”（精密机械），却常常忽略了连接两者的“神经系统”——通信。作为一名通信工程背景的AI产品经理，我认为，稳定、低延迟、高保真的数据传输，才是决定具身智能体能否从“实验室玩偶”走向“现实世界协作者”的关键瓶颈。",
+        "content": "我们惊叹于Figure 01流畅的动作和自然的对话，这背后是多模态感知数据（视觉、听觉、触觉）与大模型推理结果之间，毫秒级的海量数据交换。这种交换的挑战，远超我们日常使用的任何消费电子产品。\n\n**核心挑战与产品机遇：**\n\n*   **无线通信的鲁棒性：** 在复杂的物理环境中（如工厂、家庭），Wi-Fi信号的抖动、遮挡或干扰，都可能导致智能体的“神经脉冲”中断，造成灾难性后果。如何设计兼具高带宽与极端可靠性的通信协议和硬件冗余，是产品必须解决的根本问题。这不仅是技术选型，更是产品安全与信任体系的一部分。\n*   **数据压缩与边缘计算的权衡：** 将所有传感器原始数据都上传云端进行处理是不现实的。产品经理需要与工程师紧密协作，定义哪些数据必须在本地（边缘端）进行预处理和压缩，哪些核心数据需要无损传输。这个决策直接影响了智能体的响应速度、功耗和最终成本。例如，一个机器人的视觉识别，是应该传输压缩后的特征向量，还是在特定场景下传输关键帧的原始图像？这是一个典型的产品决策。\n*   **系统集成与时钟同步：** 具身智能体是一个集成了数十甚至上百个传感器和执行器的复杂系统。确保所有部件在同一个时间基准下工作（皮秒级同步）至关重要。一个微小的时钟偏差，就可能导致“眼”与“手”的不协调。我的通信工程背景使我能更深刻地理解这些底层协议（如PTP，精确时间协议）对上层应用体验的决定性影响，从而在产品设计早期就规避潜在的集成风险。\n\n**结论：** 具身智能的未来，不仅是AI算法的胜利，更是系统工程的胜利。一个优秀的产品经理，必须能够俯身理解连接物理世界与数字智能的每一个“比特”，确保这套复杂的“神经系统”不仅强大，而且绝对可靠。"
+      },
+      {
+        "title": "奇点前夜：AI产品经理的生存、进化与重新定义",
+        "summary": "技术奇点或许遥远，但“能力奇点”已然来临。AI正以惊人的速度自动化许多传统的产品管理任务，从用户研究、数据分析到撰写PRD。这并非威胁，而是一场深刻的角色重塑。未来的AI产品经理，其核心价值将从“任务执行者”彻底转向“战略思想家”与“伦理守护者”。",
+        "content": "当AI能比我们更快地完成A/B测试分析和市场报告时，我们的价值何在？答案在于那些AI短期内难以企及的高阶认知能力。\n\n**产品经理角色的三大进化方向：**\n\n1.  **从“需求翻译”到“问题定义”：** 传统PM的核心工作之一是将用户需求翻译成工程语言。但在AI时代，我们更重要的职责是**定义真正值得解决的问题**。这需要批判性思维、跨领域联想和对人性的深刻洞察。当AI可以生成100个解决方案时，只有最顶尖的PM能判断出哪个方案不仅技术可行，更能引发用户情感共鸣，并符合长期商业战略。我们的战场，已从“How”和“What”上升到了“Why”。\n2.  **从“功能交付”到“系统叙事”：** AI产品的复杂性、不确定性和“黑箱”特性，要求PM具备前所未有的**战略叙事能力**。你需要向团队、向市场、向高管清晰地阐述一个AI系统的愿景、边界和价值主张。当一个Agentic AI的行为出现预期之外的涌现时，你如何解释其行为的合理性？如何构建用户对这个“黑箱”的信任？这考验的不再是功能列表的堆砌，而是构建可信、可解释、有吸引力的产品故事的能力。\n3.  **从“用户中心”到“生态伦理”：** AI的影响力超越了单一用户，辐射到整个社会生态。我们的设计决策可能加剧偏见，可能影响就业，甚至可能带来安全风险。未来的AI产品经理必须成为**伦理第一责任人**。在产品规划的每一个环节，都需要内置一个“伦理仪表盘”，主动识别和规避潜在的负面外部性。这要求我们具备超越商业KPI的宏观视角和道德决断力。\n\n**行动指南：** 我们必须主动拥抱AI工具来自动化我们的战术工作，并将节省下来的时间精力，投入到对哲学、社会学、心理学的学习中，投入到对复杂系统的深度思考中。未来的招聘者寻找的，将不再是一个“功能专家”，而是一个能够在技术、商业与人文十字路口上，做出明智判断的“领导者”。"
+      },
+      {
+        "title": "从工具到伙伴：我们如何为“主动式AI”设计产品？",
+        "summary": "人机交互正在经历一场根本性的范式转移，从“命令-执行”的工具模型，转向“意图理解-主动协作”的伙伴模型。以Agentic AI为代表的主动式AI，不再是被动等待指令的软件，而是能够自主理解目标、规划步骤、并主动执行的“数字伙伴”。作为产品经理，我们必须彻底改变我们的设计思维。",
+        "content": "为“工具”设计，我们关注的是易用性、效率和确定性。而为“伙伴”设计，我们必须开始关注**信任、授权和容错**。\n\n**设计主动式AI产品的三大原则：**\n\n*   **原则一：建立“可中断的信任” (Interruptible Trust)。**\n    用户需要相信AI伙伴能够胜任工作，但又必须能在关键节点进行干预。这意味着产品界面需要从传统的“按钮和菜单”演变为“状态监控和一键暂停”。\n    - *设计模式示例：* 一个“AI旅行规划Agent”，不应直接订票，而应展示一个包含“实时进度条”、“关键决策点（如‘选择航班’）”、“一键暂停并接管”的可视化任务流。用户能清晰地看到Agent在做什么、下一步要做什么，并随时可以介入。\n\n*   **原则二：设计“清晰的授权边界” (Clear Authorization Boundaries)。**\n    “伙伴”也需要知道自己的权限范围。产品设计必须让用户能以自然、直观的方式，设定AI的操作权限，而不是通过复杂的设置菜单。\n    - *设计模式示例：* 一个“AI邮件助理Agent”，在首次使用时可以模拟对话：“我可以帮你自动回复日程邀请和过滤垃圾邮件，但未经你允许，我绝不会删除任何邮件或回复高优先级联系人。可以吗？” 这种对话式的授权，远比勾选几十个复选框更符合心智模型。\n\n*   **原则三：构建“有益的容错机制” (Beneficial Fault Tolerance)。**\n    主动式AI一定会犯错。关键在于，当错误发生时，系统能否优雅地失败，并从中学习，甚至将错误转化为有益的体验。\n    - *设计模式示例：* 一个“AI购物Agent”错买了一件商品，糟糕的设计是退货了事。而一个好的设计会主动向用户解释：“抱歉，我根据你的历史偏好选错了尺码。我已经申请了退货，并更新了你的尺码偏好记录，保证下次不会再错。作为补偿，我找到了一张8折优惠券，适用于你常买的另一个品牌。” 这将一次失败的交易，转化成了一次强化信任和个性化服务的机会。\n\n**结论：** 设计一个AI伙伴，就像是为一位新员工设定工作职责和汇报流程。我们需要给予它足够的自主权以发挥价值，同时建立清晰的护栏和沟通机制来管理风险。这要求产品经理具备更高维度的系统设计能力和对人机关系的深刻理解。这场交互革命，才刚刚开始。"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "在与他共事的两年里，我对他将抽象战略转化为具体成果的卓越执行力印象深刻。他不仅仅是定义需求，更是那个能卷起袖子，带领团队攻克技术难关、完成从0到1产品闭环的关键人物。他主导的‘AI面试模拟助手’项目，从一个初步构想迅速迭代为高价值产品，充分证明了他作为AI产品经理的远见和强大的领导能力。任何希望将前沿技术落地为商业价值的团队，都会从他的加入中获益匪浅。",
+      "name": "张伟",
+      "title": "前团队负责人，现任某AI公司产品总监"
+    },
+    {
+      "quote": "作为一名产品经理，他拥有罕见的技术共情能力。他独特的通信工程背景，让我们在探讨具身智能的底层技术，如传感器数据融合与实时通信协议时，沟通效率极高。他能迅速理解工程实现的复杂性与挑战，并将其转化为清晰、可行的产品需求文档，极大地减少了产品与研发之间的沟通壁垒。他是我合作过的，最能无缝衔接技术与产品的PM之一。",
+      "name": "Dr. Evelyn Reed",
+      "title": "技术合作伙伴，机器人系统首席工程师"
+    },
+    {
+      "quote": "最初我只是抱着试试看的心态体验‘AI面试模拟助手’，但很快就被产品的用心所打动。它不仅解决了‘面试前不知如何准备’的普遍痛点，更在交互细节上充满了对用户的关怀和理解。他（作为产品经理）曾主动联系我，细心倾听我的使用反馈，并快速在后续版本中进行了优化。能感受到，他真心在乎用户的感受，并致力于打造真正能帮助人、有温度的AI产品。",
+      "name": "李静",
+      "title": "客户，早期产品用户"
+    }
+  ],
+  "contact": {
+    "sectionNumber": "04.",
+    "preTitle": "What's Next?",
+    "title": "Get In Touch",
+    "description": "I am actively seeking challenging opportunities in the Embodied Intelligence space where I can apply my unique blend of technical depth and product execution skills. If you're building the future of AI and looking for a passionate product manager to help lead the way, I'd love to connect.",
+    "cta": "Say Hello",
+    "email": "email@example.com"
+  },
+  "caseStudies": {
+    "interviewAssistant": {
+      "title": "AI Interview Simulation Assistant",
+      "subtitle": "A developed product case study demonstrating end-to-end execution.",
+      "backToPortfolio": "Back to Portfolio",
+      "sections": {
+        "problem": {
+          "title": "Problem Identification",
+          "content": "Job seekers, especially in tech, face immense pressure during interviews. The process of preparing is often fragmented and lacks realistic, interactive feedback. Existing tools were either static question banks or expensive coaching services. The core problem was the lack of an accessible, on-demand tool to simulate real interview scenarios and provide instant feedback."
+        },
+        "role": {
+          "title": "My Role & Responsibilities",
+          "content": "As the sole Product Manager and lead developer, I was responsible for the entire product lifecycle. This included:",
+          "list": [
+            "Initial ideation and market validation.",
+            "Defining product requirements and user stories.",
+            "Designing the conversation flow and system logic using LLMs.",
+            "Developing the application on the \"扣子空间\" (Coze) platform.",
+            "Testing, iterating, and launching the assistant."
+          ]
+        },
+        "solution": {
+          "title": "Solution & Design",
+          "content": "The solution was an AI-powered conversational agent that acts as a friendly yet professional interviewer. It guides users through various interview stages, asks relevant questions based on their target role, and provides constructive feedback in real-time. Key technical components included a Large Language Model (LLM) for dialogue generation and a structured state machine to manage the interview flow."
+        },
+        "execution": {
+          "title": "Execution & Development",
+          "content": "The assistant was built on Coze, a no-code/low-code AI bot platform. This choice allowed for rapid prototyping and iteration. The core of the development involved crafting precise prompts and workflows to ensure the AI's behavior was consistent and helpful. I designed the system to handle various user inputs and maintain context throughout a long conversation, simulating a realistic interview experience."
+        },
+        "challenges": {
+          "title": "Challenges & Learnings",
+          "content": "A major challenge was ensuring the AI's feedback was both accurate and encouraging, avoiding overly critical or generic responses. This required extensive prompt engineering and testing. This project solidified my understanding of applied AI and the importance of a human-centric approach in product design. It proved my ability to take a concept from a simple idea to a fully functional product, demonstrating strong execution capabilities."
+        },
+        "impact": {
+          "title": "Impact & Results",
+          "content": "The AI Interview Assistant was successfully launched and used by peers to prepare for technical interviews. Early feedback indicated a significant increase in user confidence. For example, one user reported that the simulated experience helped them secure a final round interview by preparing them for unexpected behavioral questions. This project served as a powerful validation of my 0-to-1 product development skills."
+        }
+      }
+    },
+    "productAnalysis": {
+      "title": "AI Product Analysis Reports",
+      "subtitle": "A case study in product teardown and structured analysis.",
+      "backToPortfolio": "Back to Portfolio",
+      "sections": {
+        "objective": {
+          "title": "Objective",
+          "content": "To deepen my product thinking and analytical skills, I conducted in-depth analyses of existing AI products, including \"秘塔-今天学点啥\" (Mita - What to learn today). The goal was to deconstruct their features, user experience, and market positioning using a structured framework based on established design and product principles."
+        },
+        "role": {
+          "title": "My Role & Approach",
+          "content": "As a Product Analyst, I acted as a critical user and strategist. My approach involved:",
+          "list": [
+            "Applying a \"Ten Principles\" framework for product evaluation.",
+            "Mapping the complete user journey to identify pain points and moments of delight.",
+            "Analyzing the product's value proposition, competitive landscape, and monetization strategy.",
+            "Compiling my findings into comprehensive reports with actionable recommendations."
+          ]
+        },
+        "findings": {
+          "title": "Key Findings (Example: Mita)",
+          "content": "My analysis of Mita revealed a strong value proposition in curated learning but identified several UX friction points in its content discovery flow. The user journey analysis showed a drop-off when users were presented with too many choices without clear guidance. The competitive analysis highlighted an opportunity to differentiate by focusing on more interactive, hands-on learning modules, a gap in the current market."
+        },
+        "learnings": {
+          "title": "Learnings & Impact",
+          "content": "This exercise was invaluable for honing my ability to think critically and systematically about product design. It demonstrated my capacity to not just use a product, but to understand its underlying structure, business logic, and potential for improvement. These reports serve as evidence of my product sense and my ability to generate data-driven insights, showcasing the \"product creativity\" aspect of my skillset."
+        }
+      }
+    },
+    "marketResearch": {
+      "title": "AI Dialogue Plugin Market Research",
+      "subtitle": "A case study in market research, product strategy, and positioning.",
+      "backToPortfolio": "Back to Portfolio",
+      "sections": {
+        "opportunity": {
+          "title": "The Opportunity",
+          "content": "With the rise of large language models, there was a burgeoning ecosystem of plugins and add-ons. I identified a potential opportunity to create a \"dialogue directory\" plugin—a tool to help users discover, manage, and utilize various specialized AI conversations. The first step was to validate this hypothesis through rigorous market research."
+        },
+        "role": {
+          "title": "My Role & Methodology",
+          "content": "As the primary Market Researcher and Product Strategist, I conducted a multi-faceted analysis:",
+          "list": [
+            "<strong>Market Dynamics Analysis:</strong> Studied the growth of AI plugin stores and developer trends.",
+            "<strong>Competitive Landscape:</strong> Analyzed existing solutions and identified their strengths and weaknesses.",
+            "<strong>Customer Journey Mapping:</strong> Charted the experience of a typical AI power user to pinpoint unmet needs.",
+            "<strong>User Persona Development:</strong> Created detailed profiles of potential target users."
+          ]
+        },
+        "insights": {
+          "title": "Strategic Insights",
+          "content": "The research revealed that while many plugins existed, discovery was a major pain point. Users struggled to find high-quality, relevant conversational agents for specific tasks. The analysis led to a clear strategic recommendation: instead of a broad directory, focus on a niche, curated collection for a specific professional vertical (e.g., developers, marketers) to build initial traction."
+        },
+        "impact": {
+          "title": "Impact on Product Strategy",
+          "content": "The insights from this research directly shaped the product's positioning. The focus shifted from a generic \"directory\" to a premium, curated \"toolkit.\" A preliminary product roadmap was developed based on the identified user pain points. This project demonstrates my ability to use market data to formulate a clear product strategy and make informed decisions, a critical skill for any product manager."
+        }
+      }
+    },
+    "vibeCoding": {
+      "title": "vibe coding: AI Dialogue Assistant Plugin",
+      "subtitle": "An in-progress project showcasing innovation, learning, and technical exploration.",
+      "backToPortfolio": "Back to Portfolio",
+      "sections": {
+        "vision": {
+          "title": "Vision & Goal",
+          "content": "The vision for \"vibe coding\" is to create an AI-powered coding assistant that goes beyond simple code completion. The goal is to develop an intelligent agent that understands the developer's context and intent, proactively offering suggestions, debugging help, and architectural ideas. This project is my sandbox for exploring the cutting edge of Agentic and Multimodal AI within a practical application."
+        },
+        "role": {
+          "title": "My Role & \"Learning by Doing\"",
+          "content": "As the sole Developer and Product Visionary, this project is a direct reflection of my core traits: \"love of learning\" and \"strong execution.\" I am responsible for:",
+          "list": [
+            "Conceptualizing the product vision and core features.",
+            "Self-learning the necessary technologies, including advanced concepts in Agentic AI.",
+            "Developing the prototype plugin.",
+            "Experimenting with different AI models and architectures to achieve the desired behavior."
+          ]
+        },
+        "status": {
+          "title": "Current Status & Technical Challenges",
+          "content": "The project is currently in the prototyping phase. The primary technical challenge is creating a system that can effectively maintain a long-term context of a developer's project and provide relevant, non-intrusive assistance. This involves experimenting with retrieval-augmented generation (RAG) and fine-tuning models for specific coding tasks. This hands-on development work gives me a deep appreciation for the engineering challenges in building AI products."
+        },
+        "future": {
+          "title": "Future Potential & Strategic Relevance",
+          "content": "This project is not just a technical exercise; it's a strategic exploration of future human-computer-interaction paradigms in software development. The learnings from \"vibe coding\" are directly applicable to the broader field of Embodied Intelligence, where autonomous agents must understand context and perform complex tasks. It showcases my proactive approach to innovation and my commitment to staying at the forefront of AI technology."
+        }
+      }
+    }
+  }
+}

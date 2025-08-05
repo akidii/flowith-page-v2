@@ -1,0 +1,26 @@
+<div class="py-12">
+    <h2 class="text-3xl md:text-4xl font-header text-slate-light mb-3 flex items-center">
+        <span class="text-accent mr-4">{{sectionNumber}}</span> {{title}}
+    </h2>
+    <div class="page-title mb-8"></div>
+    <p class="max-w-3xl text-slate-dark mb-12">
+        {{description}}
+    </p>
+
+    <div class="overflow-x-auto">
+        <table class="w-full text-left font-header glass-card">
+            <thead class="border-b border-accent/20">
+                <tr>
+                    <th class="p-4">{{headerProject}}</th>
+                    <th class="p-4 hidden md:table-cell">{{headerType}}</th>
+                    <th class="p-4">{{headerFocus}}</th>
+                    <th class="p-4 hidden md:table-cell">{{headerRole}}</th>
+                    <th class="p-4">{{headerLink}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{projectRows}}
+            </tbody>
+        </table>
+    </div>
+</div>

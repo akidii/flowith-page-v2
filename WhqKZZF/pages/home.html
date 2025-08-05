@@ -1,0 +1,17 @@
+<div class="flex flex-col items-center justify-center min-h-[70vh] text-center">
+    <div class="w-full max-w-2xl">
+        <h1 class="text-4xl md:text-6xl font-header font-bold text-slate-light mb-4">
+            {{title}}
+        </h1>
+        <p class="text-lg text-slate-dark mb-8">
+            {{subtitle}}
+        </p>
+        <p class="font-header text-accent mb-4">{{prompt}}</p>
+        <form id="terminal-form" class="relative w-full max-w-lg mx-auto">
+            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-accent font-header text-lg">&gt;</span>
+            <input id="terminal-input" type="text" class="pl-8 pr-4 py-3 bg-secondary/50 rounded-md w-full font-header text-lg" autocomplete="off">
+            <span class="terminal-cursor"></span>
+        </form>
+        <p id="puzzle-summary" class="mt-4 text-accent min-h-[1.5em] transition-opacity duration-500 opacity-0"></p>
+    </div>
+</div>
